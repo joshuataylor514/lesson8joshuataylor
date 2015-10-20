@@ -21,7 +21,7 @@ p {
 	margin-right: auto;
 }
 
-.image2{
+.image2 {
    	display: none;
    	height: 400px;
 	width: 500px;
@@ -29,7 +29,7 @@ p {
 	margin-right: auto;
    	}
 
-.image3{
+.image3 {
    	display: none;
    	height: 200px;
 	width: 300px;
@@ -49,7 +49,6 @@ p {
    	 display: none;
    	}
    }
-
 
 @media(min-width: 768px) and (max-width: 1024px){
 	body{ background: green; }
