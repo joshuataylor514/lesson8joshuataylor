@@ -1,0 +1,78 @@
+body {
+	background: blue;
+}
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+	font-family: "Comic Sans MS";
+}
+
+p {
+	text-align: center;
+	font-family: "Comic Sans MS";
+}
+
+.image1 {
+	height: 650px;
+	width: 800px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.image2{
+   	display: none;
+   	height: 400px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+   	}
+
+.image3{
+   	display: none;
+   	height: 200px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+   	}
+
+@media(min-width: 1200px) and (max-width: 1600px){
+	body{ background: blue;}
+	.image1{
+     display: block;
+   	}
+   	.image2{
+     display: none;
+   }
+   	.image3{
+   	 display: none;
+   	}
+   }
+
+
+@media(min-width: 768px) and (max-width: 1024px){
+	body{ background: green; }
+	.image1{
+     display: none;
+   	}
+   	.image2{
+     display: block;
+   }
+   	.image3{
+   	 display: none;
+   	}
+   }
+
+@media(min-width: 320px) and (max-width: 480px){
+	body{ background: red; }
+	.image1{
+     display: none;
+   	}
+   	.image2{
+     display: none;
+   }
+   	.image3{
+   	 display: block;
+   	}
+   }
